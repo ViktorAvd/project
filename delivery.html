@@ -6,15 +6,31 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
-Выберите способ доставки заказа
-
-Курьером
-Дронами
-Пневмопочтой
-Почтой России
-
-Продолжить
-
+<main style ="width: 300px; margin: 0 auto;">
+        <table>
+            <tr>
+                <td>
+                    <h2>Выберите способ доставки заказа</h2>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <hr>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <form action="/project/address.html">
+                        <input type="radio" name="site" >Курьером<br>
+                        <input type="radio" name="site" >Дронами<br>
+                        <input type="radio" name="site" >Пневмопочтой<br>
+                        <input type="radio" name="site" >Почтой России<br>
+                        <p><input type="submit" name="buttonsubmit" value="Продолжить"></p>
+                    </form>
+                </td>
+            </tr>
+            <tr><td></td></tr>
+        </table>
+    </main>
 </body>
 </html>

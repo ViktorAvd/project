@@ -7,18 +7,19 @@
 </head>
 <body>
 
-Введите ваш адрес, куда доставить
+<h2>Введите ваш адрес, куда доставить</h2>
 
----
-
-Город
-Куда везти
-Улица
-Немного точнее
-Дом, корпус и строение
-Пожелания и примечания, если есть
-
-Продолжить
-
+<p>Город</p>
+<form action="/project/ready.html">
+<input type="text" name="city" placeholder="Куда везти">
+<br>
+<p>Улица</p>
+<input type="text" name="street" placeholder="Немного точнее">
+<p>Немного точнее</p>
+<input type="text" name="apartment" placeholder="Дом, корпус и строение">
+<p>Пожелания и премичания, если есть</p>
+<input type="text" name="comment">
+<p><input type="submit" name="form" value="Продолжить"></p>
+</form>
 </body>
 </html>
